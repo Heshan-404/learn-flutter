@@ -162,7 +162,7 @@ void deleteBook() {
   while (true) {
     clearScreen();
     stdout.writeln("+----------------------------------------+");
-    stdout.writeln("|\t\tSearch Book\t\t |");
+    stdout.writeln("|\t\tDelete Book\t\t |");
     stdout.writeln("+----------------------------------------+\n");
     stdout.write(" - Book Name : ");
     String bookName = stdin.readLineSync() as String;
