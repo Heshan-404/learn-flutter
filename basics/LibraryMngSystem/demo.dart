@@ -263,8 +263,7 @@ class BookList {
   }
 
   void deleteBook(Book book) {
-    var remove = bookList.remove(book);
-    print(remove);
+    bookList.remove(book);
   }
 
   void addBookToList(Book book) {
